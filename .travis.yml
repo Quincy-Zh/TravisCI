@@ -4,8 +4,7 @@ language: cpp
 before_install:
   - where choco
   - where mingw32-make
-#  - dir C:\
-  - C:\ProgramData\chocolatey\bin\choco.exe /V
+  - C:\\ProgramData\\chocolatey\\bin\\choco.exe /V
   - choco /v
 
 script:
