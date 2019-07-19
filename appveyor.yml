@@ -2,8 +2,7 @@ image:
   - Visual Studio 2017
 
 init:
-  - cmd: dir C:\Qt
-  - cmd: dir C:\
+  - cmd: dir C:\Qt\Tools
   
 build_script:
   - cmd: echo %PATH%
