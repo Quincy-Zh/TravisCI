@@ -2,7 +2,7 @@ image:
   - Visual Studio 2017
 
 init:
-  - cmd: dir C:\Qt\Tools\mingw730_32
+  - cmd: dir C:\Qt\Tools\mingw730_32\bin
   
 build_script:
   - cmd: echo %PATH%
