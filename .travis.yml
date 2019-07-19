@@ -4,8 +4,8 @@ language: cpp
 before_install:
   - where choco
   - where mingw32-make
-  - dir C:\
-  - choco /v
+#  - dir C:\
+#  - choco /v
 
 script:
  - g++ -o test main.cpp
