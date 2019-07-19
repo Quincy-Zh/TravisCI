@@ -5,7 +5,8 @@ before_install:
   - where choco
   - where mingw32-make
 #  - dir C:\
-#  - choco /v
+  - C:\ProgramData\chocolatey\bin\choco.exe /V
+  - choco /v
 
 script:
  - g++ -o test main.cpp
