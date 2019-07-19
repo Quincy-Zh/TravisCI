@@ -6,3 +6,8 @@ before_install:
   - where mingw32-make
   - dir C:\
   - choco /v
+
+script:
+ - g++ -o test main.cpp
+
+ 
