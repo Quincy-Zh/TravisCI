@@ -6,9 +6,3 @@ before_install:
   - where mingw32-make
   - dir C:\
   - choco /v
-
-after_success:
-  - 
-
-after_failure:
-  - 
