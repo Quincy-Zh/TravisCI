@@ -11,4 +11,4 @@ script:
  - g++ -o test main.cpp
 
 after_success:
- - ./a
+ - ls .
