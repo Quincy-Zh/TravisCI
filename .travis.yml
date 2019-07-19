@@ -1,0 +1,14 @@
+os: windows
+language: cpp
+
+before_install:
+  - where choco
+  - where mingw32-make
+  - dir C:\
+  - choco /v
+
+after_success:
+  - 
+
+after_failure:
+  - 
